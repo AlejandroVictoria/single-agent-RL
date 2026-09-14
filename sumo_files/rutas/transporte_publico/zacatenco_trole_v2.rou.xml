@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-07T23:46:53.250194-06:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <!-- Validar velocidad máxima de vType para que coincida con la estimada para mantener un headway sano de 1600m
+        velocidad máxima recomendada: 11.11 m/s-->
+
+    <vType 
+        id="trolebus" 
+        vClass="bus" 
+        guiShape="bus/trolley" 
+        length="12.00" 
+        width="2.55" 
+        height="3.20" 
+        personCapacity="85" 
+        boardingDuration="3.4"
+        loadingDuration="3.4" 
+        color="28,0,240"
+        maxSpeed="11.11"
+        accel="1.2"
+        decel="1.5"
+        />
+
+    <!-- Routes -->
+    <route id="r_0" edges="220963278#1 220963278#2 220963278#3 220963278#4 220963278#5 220963278#6 220963278#7 220963278#9 220963278#10 220963278#11 220963278#12 220963278#13 220963278#14 220963278#15 220963278#16 220963278#17 220963278#18 220963278#19 1233874083#0 1233874083#1 853021443#0 853021443#1 853021443#2 853021443#4 853021443#5 94058599#0 94058599#1 94058599#2 94058599#4 94058599#5 220965030#1 220965030#2 220965030#3 220965030#5 220965030#6 220965030#7 220965030#8 220965030#9 220965030#10 79684993#0 94058602#1 248396929#0 248396929#1 248396929#2 248396929#3 248396929#4 248396929#5 248396929#6 248396929#7 248396929#8 248396929#9 248396929#10 168102141 399543056#4 399543056#5 399543056#6 399543056#7 399543056#8 399543056#9 399543056#10 399543056#12 399543056#13 399543056#14 399543056#15 399543056#16 399543056#17 869889733#0 869889733#1 869889733#2 869889733#3 399543057#0 248396934#0 248396934#1 248396934#2 248396934#4 248396934#5 248396934#6 26740407#1 248396931#0 248396931#1 248396931#2 248396932#1 248396932#2 79684994#1 79684994#3 79684994#4 79684994#5 79684994#7 79684994#8 79684994#9 79684994#10 79684994#12 79684994#13 79684994#14 79684994#15 79684994#17 79684994#18 79684994#19 79684994#20 79684994#22 79684994#23 79684994#24 248396928#1 94058606#0 75039578 94058595#2 248396927 248396926#0 248396926#1 248396926#2 248396926#3 248396926#4 248396926#5 248396926#6 248396926#7 248396926#8 248396926#10 248396926#11 248396926#12 248396926#13 248396926#14 248396926#15 94058594#0 94058594#1 94058594#2 220965031#0 220965031#1 220965036#0 220965036#2 220965036#3 220965036#4 220965036#5 220965036#6 220965036#7 395928862#0 853364425#0 853364425#1 853364425#2 395928861#0 395928861#1 853364423#1 853364423#2 853364423#3 853364423#4 853364423#5 853364423#6 853364423#7 853364423#8 853364421#1 684827311#0 684827311#1">
+        <stop busStop="bs_0" duration="20.00" until="0.00"/>
+        <stop busStop="bs_1" duration="20.00" until="30.00"/>
+        <stop busStop="bs_2" duration="20.00" until="60.00"/>
+        <stop busStop="bs_3" duration="20.00" until="90.00"/>
+        <stop busStop="bs_4" duration="20.00" until="120.00"/>
+        <stop busStop="bs_5" duration="20.00" until="150.00"/>
+        <stop busStop="bs_6" duration="20.00" until="180.00"/>
+        <stop busStop="bs_7" duration="20.00" until="210.00"/>
+        <stop busStop="bs_8" duration="20.00" until="240.00"/>
+        <stop busStop="bs_9" duration="20.00" until="270.00"/>
+        <stop busStop="bs_10" duration="20.00" until="300.00"/>
+        <stop busStop="bs_11" duration="20.00" until="330.00"/>
+        <stop busStop="bs_12" duration="20.00" until="360.00"/>
+        <stop busStop="bs_13" duration="20.00" until="390.00"/>
+        <stop busStop="bs_14" duration="20.00" until="420.00"/>
+        <stop busStop="bs_15" duration="20.00" until="450.00"/>
+        <stop busStop="bs_16" duration="20.00" until="480.00"/>
+        <stop busStop="bs_17" duration="20.00" until="510.00"/>
+        <stop busStop="bs_18" duration="20.00" until="540.00"/>
+        <stop busStop="bs_19" duration="20.00" until="570.00"/>
+        <stop busStop="bs_20" duration="20.00" until="600.00"/>
+        <stop busStop="bs_21" duration="20.00" until="630.00"/>
+        <stop busStop="bs_22" duration="20.00" until="660.00"/>
+        <stop busStop="bs_23" duration="20.00" until="690.00"/>
+        <stop busStop="bs_24" duration="20.00" until="720.00"/>
+        <stop busStop="bs_25" duration="20.00" until="750.00"/>
+        <stop busStop="bs_26" duration="20.00" until="780.00"/>
+        <stop busStop="bs_27" duration="20.00" until="810.00"/>
+        <stop busStop="bs_28" duration="120.00" until="840.00"/>
+        <stop busStop="bs_29" duration="20.00" until="870.00"/>
+        <stop busStop="bs_30" duration="20.00" until="900.00"/>
+        <stop busStop="bs_31" duration="20.00" until="930.00"/>
+        <stop busStop="bs_32" duration="20.00" until="960.00"/>
+        <stop busStop="bs_33" duration="20.00" until="990.00"/>
+        <stop busStop="bs_34" duration="20.00" until="1020.00"/>
+        <stop busStop="bs_35" duration="20.00" until="1050.00"/>
+        <stop busStop="bs_36" duration="20.00" until="1080.00"/>
+        <stop busStop="bs_37" duration="20.00" until="1110.00"/>
+        <stop busStop="bs_38" duration="20.00" until="1140.00"/>
+        <stop busStop="bs_39" duration="20.00" until="1170.00"/>
+        <stop busStop="bs_40" duration="20.00" until="1200.00"/>
+        <stop busStop="bs_41" duration="20.00" until="1230.00"/>
+        <stop busStop="bs_42" duration="20.00" until="1260.00"/>
+        <stop busStop="bs_43" duration="20.00" until="1290.00"/>
+    </route>
+
+    <flow id="f_trolebus_zacatenco" 
+          type="trolebus" 
+          begin="0" 
+          end="10800"
+          route="r_0" 
+          period="120"
+          line="Circuito Politécnico"
+          departPos="stop"
+          departLane="best"
+          />
+</routes>

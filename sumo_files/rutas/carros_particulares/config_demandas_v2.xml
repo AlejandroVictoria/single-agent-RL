@@ -1,0 +1,14 @@
+<routes>
+    <!-- DEFINICIÓN DE TIPOS DE VEHÍCULOS (Variedad de Colores) -->
+    <!-- EL TRUCO: Sobreescribir el tipo por defecto con una distribución basada en tus vTypes -->
+    <vTypeDistribution id="DEFAULT_VEHTYPE">
+        <vType id="tipo_plata" vClass="passenger" length="4.50" width="1.80" color="0.75,0.75,0.75" probability="0.15"/>
+        <vType id="tipo_rojo" vClass="passenger" length="3.80" width="1.70" color="0.7,0.1,0.1" probability="0.20"/>
+        <vType id="tipo_azul" vClass="passenger" length="4.80" width="1.90" color="0.1,0.2,0.4" probability="0.25"/>
+        <vType id="tipo_negro" vClass="passenger" length="4.70" width="1.85" color="0.1,0.1,0.1" probability="0.15"/>
+        <vType id="tipo_verde" vClass="passenger" length="4.60" width="1.80" color="0.1,0.5,0.1" probability="0.10"/>
+        <vType id="tipo_amarillo" vClass="passenger" length="4.40" width="1.75" color="0.9,0.9,0.1" probability="0.05"/>
+        <vType id="tipo_morado" vClass="passenger" length="4.50" width="1.80" color="0.5,0.1,0.5" probability="0.05"/>
+        <vType id="tipo_naranja" vClass="passenger" length="4.30" width="1.70" color="0.9,0.5,0.1" probability="0.05"/>
+    </vTypeDistribution>
+</routes>

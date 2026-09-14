@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-20T01:18:00.398320-06:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="bs_0" name="Wilfrido Massieu" lane="220963278#2_1" startPos="3.00" endPos="18.00" friendlyPos="1"/>
+    <busStop id="bs_1" name="Metro Politécnico (Oriente)" lane="220963278#4_1" startPos="43.00" endPos="58.00" friendlyPos="1"/>
+    <busStop id="bs_10" name="Manuel de Anda y Barredo" lane="220965030#10_1" startPos="30.60" endPos="45.60" friendlyPos="1"/>
+    <busStop id="bs_11" name="Fte. Edif. 8 ESIQIE" lane="79684993#0_1" startPos="135.28" endPos="150.28"/>
+    <busStop id="bs_12" name="Fte. Edif. 6 ESIQIE" lane="79684993#0_1" startPos="278.80" endPos="293.80"/>
+    <busStop id="bs_13" name="Fte. Edif. 4 ESIME" lane="79684993#0_1" startPos="422.78" endPos="437.78"/>
+    <busStop id="bs_14" name="Fte. Edif. 2 ESIME" lane="79684993#0_1" startPos="567.07" endPos="582.07"/>
+    <busStop id="bs_15" name="Fte. Edif. 1 ESIME" lane="79684993#0_1" startPos="659.69" endPos="674.69"/>
+    <busStop id="bs_16" name="CENLEX" lane="248396929#0_1" startPos="135.37" endPos="150.37" friendlyPos="1"/>
+    <busStop id="bs_17" name="Planetario" lane="248396929#3_1" startPos="40.00" endPos="55.00" friendlyPos="1"/>
+    <busStop id="bs_18" name="Centro de Formación Educativa" lane="248396929#7_1" startPos="63.00" endPos="77.00" friendlyPos="1"/>
+    <busStop id="bs_19" name="Esc. Nacional de Ciencias Biológicas" lane="248396929#10_1" startPos="120.00" endPos="135.00"/>
+    <busStop id="bs_2" name="Av. Othon de Mendizabal" lane="220963278#16_1" startPos="11.00" endPos="26.00" friendlyPos="1"/>
+    <busStop id="bs_20" name="Cda. Manuel Stampa" lane="248396929#10_1" startPos="226.00" endPos="241.00" friendlyPos="1"/>
+    <busStop id="bs_21" name="Salvatierra" lane="399543056#5_1" startPos="35.00" endPos="50.00" friendlyPos="1"/>
+    <busStop id="bs_22" name="Vía Ceti" lane="399543056#9_1" startPos="24.00" endPos="39.00" friendlyPos="1"/>
+    <busStop id="bs_23" name="Fte. Centro de Formación Educativa" lane="399543056#14_1" startPos="0.00" endPos="15.00"/>
+    <busStop id="bs_24" name="Av. 45 Metros" lane="399543056#17_1" startPos="8.00" endPos="23.00" friendlyPos="1"/>
+    <busStop id="bs_25" name="Huacho" lane="869889733#1_1" startPos="55.00" endPos="70.00" friendlyPos="1"/>
+    <busStop id="bs_26" name="Oroya" lane="248396934#1_1" startPos="125.00" endPos="140.00" friendlyPos="1"/>
+    <busStop id="bs_27" name="Fte. a Entrada a El Queso" lane="248396931#0_1" startPos="35.98" endPos="50.25" friendlyPos="1"/>
+    <busStop id="bs_28" name="Terminal Zacatenco" lane="248396932#2_1" startPos="3.74" endPos="18.74"/>
+    <busStop id="bs_29" name="Edif. 1 ESIME" lane="79684994#3_1" startPos="30.59" endPos="45.59" friendlyPos="1"/>
+    <busStop id="bs_3" name="Av. Central" lane="853021443#0_1" startPos="45.00" endPos="60.00" friendlyPos="1"/>
+    <busStop id="bs_30" name="Edif. 2 ESIME" lane="79684994#5_1" startPos="11.00" endPos="26.00" friendlyPos="1"/>
+    <busStop id="bs_31" name="Edif. 4 ESIME" lane="79684994#10_1" startPos="21.00" endPos="36.00" friendlyPos="1"/>
+    <busStop id="bs_32" name="Edif. 6 ESIQIE" lane="79684994#17_1" startPos="9.00" endPos="24.00" friendlyPos="1"/>
+    <busStop id="bs_33" name="Edif. 8 ESIQIE" lane="79684994#20_1" startPos="15.00" endPos="30.00" friendlyPos="1"/>
+    <busStop id="bs_34" name="Edif. 10, 11 y 12 ESIA" lane="248396928#1_1" startPos="25.87" endPos="40.87"/>
+    <busStop id="bs_35" name="Edif. 11 ESIA" lane="248396926#2_1" startPos="72.00" endPos="87.00"/>
+    <busStop id="bs_36" name="Luis Enrique Erro (Biblioteca ESIA)" lane="248396926#6_1" startPos="93.00" endPos="108.00" friendlyPos="1"/>
+    <busStop id="bs_37" name="Secretaria de Extensión y Difusión" lane="248396926#10_1" startPos="62.00" endPos="77.00"/>
+    <busStop id="bs_38" name="Edif. Cental de Inteligencia de Computo" lane="248396926#12_1" startPos="154.00" endPos="169.00" friendlyPos="1"/>
+    <busStop id="bs_39" name="FTE. Ma. Luisa Stampa Ortigoza" lane="248396926#15_1" startPos="0.00" endPos="13.26" friendlyPos="1"/>
+    <busStop id="bs_4" name="Juan de Dios Bátiz" lane="853021443#5_1" startPos="50.00" endPos="65.00" friendlyPos="1"/>
+    <busStop id="bs_40" name="FTE. ESCOM" lane="94058594#0_1" startPos="145.00" endPos="160.00" friendlyPos="1"/>
+    <busStop id="bs_41" name="Fte. VIPS Torres Lindavista" lane="220965031#0_1" startPos="5.00" endPos="20.00"/>
+    <busStop id="bs_42" name="Frente a Edificios Unidad Patera" lane="853364425#0_1" startPos="0.00" endPos="15.00"/>
+    <busStop id="bs_43" name="Metro Politécnico (Poniente)" lane="853364423#1_1" startPos="0.00" endPos="15.00"/>
+    <busStop id="bs_5" name="ESCOM" lane="94058599#2_1" startPos="24.00" endPos="39.00" friendlyPos="1"/>
+    <busStop id="bs_6" name="Ma. Luisa Stampa Ortigoza" lane="220965030#1_1" startPos="0.00" endPos="15.00"/>
+    <busStop id="bs_7" name="Fte. Edif. Central de Inteligencia de Cómputo" lane="220965030#1_1" startPos="109.00" endPos="124.00" friendlyPos="1"/>
+    <busStop id="bs_8" name="FTE. Cancha de Entrenamiento Pieles Rojas" lane="220965030#3_1" startPos="92.00" endPos="107.00" friendlyPos="1"/>
+    <busStop id="bs_9" name="Fte. Edif. 11 ESIA" lane="220965030#9_1" startPos="0.00" endPos="15.00"/>
+</additional>

@@ -1,0 +1,36 @@
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../mapas/zacatenco_v4.net.xml"/>
+
+        <route-files value="
+            ../rutas/carros_particulares/config_demandas_v2.xml,
+            ../rutas/carros_particulares/trafico_fondo_v4.rou.xml,
+            ../rutas/transporte_publico/zacatenco_trole_v2.rou.xml,
+            ../rutas/peatones/peatones_intermodales_v4.rou.xml,
+            ../rutas/peatones/peatones_intermodales_v5.rou.xml
+            "/>
+        
+        <!--../rutas/peatones/peatones_caminantes_v4.rou.xml,-->
+        <additional-files value=
+            "../adicional/zacatenco_trole_v3.add.xml,
+            ../mapas/zacatenco_v2.poly.xml"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="-1"/>
+        <pedestrian.striping.jamtime value="30"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="10800"/>
+        <step-length value="1"/> </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
